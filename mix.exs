@@ -43,7 +43,10 @@ defmodule Comparae.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       # == App dependencies
-      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
+      # Static code analysis tool
+      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false},
+      # Security-focused static analysis for the Phoenix Framework
+      {:sobelow, "~> 0.8", only: :dev}
     ]
   end
 
