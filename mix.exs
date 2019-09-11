@@ -43,6 +43,11 @@ defmodule Comparae.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       # == App dependencies
+      # GraphQL with absinthe
+      {:absinthe, "~> 1.4.0"},
+      {:absinthe_phoenix, "~> 1.4.0"},
+      {:absinthe_plug, "~> 1.4.0"},
+      {:absinthe_relay, "~> 1.4.0-rc or ~> 1.4"},
       # Static code analysis tool
       {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false},
       # Security-focused static analysis for the Phoenix Framework
