@@ -49,7 +49,7 @@ defmodule Comparae.MixProject do
       {:absinthe_plug, "~> 1.4.0"},
       {:absinthe_relay, "~> 1.4.0-rc or ~> 1.4"},
       # Static code analysis tool
-      {:credo, "~> 1.2.0", only: [:dev, :test], runtime: false},
+      {:credo, "~> 1.5.3", only: [:dev, :test], runtime: false},
       # Security-focused static analysis for the Phoenix Framework
       {:sobelow, "~> 0.8", only: :dev}
     ]
